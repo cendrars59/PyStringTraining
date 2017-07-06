@@ -2,10 +2,8 @@
 # -*-coding:Latin-1 -*
 
 """Form a complex number.
-
-    Keyword arguments:
-    real -- the real part (default 0.0)
-    imag -- the imaginary part (default 0.0)
+Main description
+    
 """
 
 from math import sqrt
@@ -43,23 +41,20 @@ def get_the_items():
     enter the item into the list
     """
     items = []
-    choice = 'o'
-    print choice
-    while choice == 'o':
-        value = input('enter the value')
-        items.append(str(value))
-        print items
-        choice = str(input('do you want to continue'))
-        print choice
-        if choice != 'n' or choice != 'o':
-            print 'Rentre un valeur correcte connard'
-            choice = input('do you want to continue')
-
+    choice = "o"
+    while choice == "o":
+        items.append(raw_input("enter the value: "))
+        choice = raw_input("Voulez-vous continuez o ou n ?: ")
+        if choice == "n":
+            print "Vous quittez la saisie"
+        else:
+            print 'Saisie invalide'
+            choice = raw_input("Voulez-vous continuez o ou n ?: ")
     return items
 
 def main():
     """
-    ta mère en short
+    Def de la fonction main()
     """
     print "Hello World"
     #calculation(NB_ITERATION)

@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NB_ITERATION	../main.py	/^NB_ITERATION = 10$/;"	kind:variable	line:13
+OPTIONAL_PARAM1	../main.py	/^OPTIONAL_PARAM1 = 1$/;"	kind:variable	line:14
+OPTIONAL_PARAM2	../main.py	/^OPTIONAL_PARAM2 = 1$/;"	kind:variable	line:15
+WORD	../main.py	/^WORD = 'word'$/;"	kind:variable	line:16
+calculation	../main.py	/^def calculation(nb_iteration):$/;"	kind:function	line:20
+calculation_with_for	../main.py	/^def calculation_with_for():$/;"	kind:function	line:32
+get_the_items	../main.py	/^def get_the_items():$/;"	kind:function	line:41
+main	../main.py	/^def main():$/;"	kind:function	line:60
+main.py	../main.py	1;"	kind:file	line:1
+sqrt	../main.py	/^from math import sqrt$/;"	kind:namespace	line:11
