@@ -3,7 +3,6 @@
 
 """Form a complex number.
 Main description
-    
 """
 
 from math import sqrt
@@ -11,16 +10,14 @@ from math import sqrt
 NB_ITERATION = 10
 OPTIONAL_PARAM1 = 1
 OPTIONAL_PARAM2 = 1
-WORD = 'word'
+WORD = "word"
+EMAIL_TO_TEST = "toto@domaine.exte"
 
 
 
 def calculation(nb_iteration):
-    """example of docstrings.
-
-    Keyword arguments:
-    real -- the real part (default 0.0)
-    imag -- the imaginary part (default 0.0)
+    """Form a complex number.
+    Main description
     """
     i = 0
     while i < nb_iteration:
@@ -48,7 +45,7 @@ def get_the_items():
         if choice == "n":
             print "Vous quittez la saisie"
         else:
-            print 'Saisie invalide'
+            print "Saisie invalide"
             choice = raw_input("Voulez-vous continuez o ou n ?: ")
     return items
 
@@ -60,6 +57,6 @@ def main():
     #calculation(NB_ITERATION)
     calculation_with_for()
     print 2017 % 400
-    age = input('Quel est ton age olé')
+    age = input("Quel est ton age olé")
     print age
 main()
